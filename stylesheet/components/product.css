@@ -1,14 +1,14 @@
 .sm-container{
-          min-width: 1080px;
-          margin-top: -40rem;
-          margin-left: 280px;
-          height: 60rem;
-     
+           margin-left: 50px; 
+      
      }
 
+     .large-container{
+          display: flex;
+     }
 .row-2{
      justify-content: space-between;
-     margin: 50px  130px  ;
+     margin:10px  40px  ;
     }
 
     select{
@@ -20,10 +20,7 @@
 
     .page-btn{
          margin-top: 3rem;
-         margin-right: 50rem;
-
-         /* margin: 0 auto 40px;
-     */
+         width: 100%;
     }
     .page-btn span{
          display: inline-block;
@@ -48,7 +45,6 @@
     .product-filter{
          width: 15rem;
          color: var(--black);
-         overflow: hidden;
          background-color: var(--light-grey);
     }
     .clear{
@@ -67,4 +63,5 @@
          width: 12rem;
        }
 
+     
     
