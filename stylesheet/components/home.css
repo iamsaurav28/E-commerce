@@ -1,6 +1,8 @@
 
 body{
      font-family: 'Poppins', sans-serif;
+     padding: 0%;
+     margin: 0%;
 }
 .home-name{
      width: 125px;
@@ -144,6 +146,15 @@ p{
      margin-top: -3px;
 }
 
+.buy-btn{
+     border: 1px solid black;
+    word-spacing: 1px;
+    margin-left: 4px;
+     padding: 3px 8px ;
+     font-size: 13px;
+     color: black;
+}
+
 .title{
      text-align: center;
      margin: 0 auto 80px;
@@ -191,8 +202,9 @@ h4{
      background-color: var(--primary);
      height: 150px;
      width: 100%;
-     position: absolute;
      margin-top: 50px;
+     margin-left: 0;
+  
 }
 
 .webmaker{
