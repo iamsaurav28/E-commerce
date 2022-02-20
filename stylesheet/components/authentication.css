@@ -1,0 +1,101 @@
+.authentication-page{
+     padding:  50px 0;
+
+}
+.account-form{
+background: var(--white);
+width: 300px;
+height: 350px;
+position: relative;
+text-align: center;
+padding: 20px 0;
+margin: auto;
+box-shadow:  0 0 20px 0px var(--light-grey);
+overflow: hidden;
+}
+
+.account-form span{
+     font-weight: bold;
+     padding: 0 10px;
+     color: var(--secondary);
+     cursor: pointer;
+     width: 100px;
+     display: inline-block;
+}
+ 
+.form-btn{
+     display: inline-block;
+}
+
+.account-form form{
+     max-width: 300px;
+     padding: 0 20px;
+     position: absolute;
+     top: 100px;
+     transition: transform 0.8s;
+}
+form input{
+     width: 90%;
+     height: 30px;
+     margin: 10px 0;
+     padding: 0 10px;
+     border: 1px solid ;
+}
+form .btn{
+     width: 90%;
+     border: none;
+     cursor: pointer;
+     margin: 10px 0;
+} 
+
+form .btn:focus{
+     outline: none;
+}
+
+#Loginform{
+     left: -320px;
+}
+
+#signupform{
+     left: 0;
+}
+
+form a{
+     font-size: 12px;
+}
+
+#Indicator{
+     width: 100px;
+     border: none;
+     background-color: var(--primary);
+     height: 3px;
+     margin-top: 8px;
+     transform: translateX(65px);
+     transition: transform 0.8s;
+} 
+.search-icon{
+    height: 18px;
+    width: 18px;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    
+}
+.search{
+     width: 300px;
+     padding: 5px;
+     border-radius: 15px;
+     border: none;
+     margin: 0;
+     font-size: 15px;
+     outline: none;
+}
+
+.search-bar{
+     margin-left: 200px ;
+     height: 27px;
+     width: 270;
+     border: 2px solid black;
+     border-radius: 20px;
+}
