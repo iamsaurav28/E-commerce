@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,300;1,500&family=Roboto+Condensed&family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+<link rel="stylesheet" href="/stylesheet/main.css">
+
+     <title>Authentication-page</title>
+</head>
+<body>
+
+
+ <header class="home-header">
+     <div class="home-container">
+          <div class="navbar">
+               <div class="symbol">
+                    <div class="symbol-name">SAADGI UI</div>
+               </div>
+              
+               <div class="search-bar">
+                    <img class="search-icon" src="/comp-images/icons8-search.gif" alt="search icon"/>
+                    <input type="text" placeholder="search" class="search"/>
+               </div>
+              
+
+               <nav>
+                   <ul>
+                        <li><a href="/comp-layout/home.html">HOME</a></li>
+                        <li><a href="/comp-layout/product.html">PRODUCTS</a></li>
+                        <li><a href="/comp-layout/wishlist.html"><img class="icon" src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"/></a></li>
+                        <li><a href="/comp-layout/cart.html"><img class="icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/000000/external-cart-shopping-actions-those-icons-lineal-those-icons-4.png"/></a></li>
+                        <li><a href="/comp-layout/authentication.html"><img class="login-icon" src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/000000/external-login-real-estate-kmg-design-glyph-kmg-design.png"/></a></li>
+                   </ul> 
+               </nav>
+          </div>
+     </div>
+</header>
+
+<!--authentication-->
+
+<div class="authentication-page">
+     <div class="container">
+          <div class="row">
+               <div class="section">
+                    <img src="/comp-images/sport-2.jpg" alt="sport players image"/>
+               </div>
+               <div class="section">
+                    <div class="account-form">
+                         <div class="form-btn">
+                              <span onclick="Login()">Login</span>
+                              <span onclick="Signup()">Sign up</span>
+                              <hr id="Indicator">
+                         </div>
+                         <form id="Loginform">
+                              <input type="text" placeholder="Username">
+                              <input type="password" placeholder="Password">
+                              <button type="submit" class="btn">Login</button>
+                              <button type="submit" class="btn">Log out</button>
+                              <a href="">Forgot password ?</a>
+                         </form>
+
+                         <form id="signupform">
+                              <input type="text" placeholder="Username">
+                              <input type="email" placeholder="Email">
+                              <input type="password" placeholder="Password">
+                              <button type="submit" class="btn">Sign up</button>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+
+
+<div class="foot">
+     <footer class="footer">
+          <div class="footer-container">
+               <div class="webmaker">MADE BY SAURAV DARJI</div>
+               <div class="footer-social">
+                   <a class="social" href="https://github.com/iamsaurav28/E-commerce/tree/Dev">GITHUB</a>
+                   <a class="social" href="#">INSTAGRAM</a>
+                   <a class="social" href="#">TWITTER</a>
+               </div>
+          </div>
+     </footer>
+ </div>
+
+ <script src="/comp.js/authentication.js"></script>
+ 
+</body>
+</html>
+
+
