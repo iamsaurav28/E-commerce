@@ -9,14 +9,18 @@
 .row-2{
      justify-content: space-between;
      margin:10px  40px  ;
+  
     }
 
     select{
-         border: 1px solid var(--primary);
+         border: 2px solid var(--primary);
+         padding: 5px 10px;
+     
     }
     select:focus{
          outline: none;
     }
+
 
     .page-btn{
          margin-top: 3rem;
