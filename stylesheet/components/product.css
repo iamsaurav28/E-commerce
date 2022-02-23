@@ -22,22 +22,22 @@
     }
 
 
-    .page-btn{
+    .pg-button{
          margin-top: 3rem;
          width: 100%;
     }
-    .page-btn span{
+    .pg-button span{
          display: inline-block;
          border:  1px solid var(--primary);
          margin-left: 10px;
-         width: 40px;
-         height: 40px;
+         width: 35px;
+         height: 35px;
          text-align: center;
-         line-height: 40px;
+         line-height: 35px;
          cursor: pointer;
     }
 
-    .page-btn span:hover{
+    .pg-button span:hover{
          background: var(--primary);
          color: var(--white);
     }
