@@ -310,8 +310,8 @@ h4{
      .feature-container{
           min-width: 480px;
           margin: auto;
-          padding-left: 15px;
-          padding-right: 15px;
+          padding-left: 0px;
+          padding-right: 0px;
      }
      
      .male-section{
