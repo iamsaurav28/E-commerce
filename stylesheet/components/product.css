@@ -67,7 +67,7 @@
          width: 12rem;
        }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
      .sm-container{
           margin-left: 0px; 
