@@ -26,16 +26,15 @@ nav ul li{
      margin-right: 10px;
 }
 
-
-.search-icon{
+ .search-icon{
      height: 18px;
      width: 18px;
      margin: 0;
      position: relative;
      top: 5px;
      left: 5px;
-     
- }
+ } 
+
  .search{
       width: 300px;
       padding: 5px;
@@ -44,15 +43,15 @@ nav ul li{
       margin: 0;
       font-size: 15px;
       outline: none;
- }
+ } 
  
- .search-bar{
+  .search-bar{
       margin-left: 200px ;
       height: 27px;
       width: 270;
       border: 2px solid black;
       border-radius: 20px;
- }
+ } 
 .icon{
      position: relative;
      top: 9px;
@@ -246,3 +245,108 @@ h4{
      text-align: center;
      margin-top: 60px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+     body{
+          font-family: 'Poppins', sans-serif;
+          padding: 0%;
+          margin: 0%;
+     }
+
+     .navbar{
+          display:inline-flex;
+          flex-wrap: wrap;
+          padding: 0px;
+          margin: 0px;
+          
+     }
+     nav{
+          flex: 1;
+          text-align: right;
+          font-size: 14px;
+          
+     }
+     nav ul{
+          display: inline-block;
+     }
+     
+     nav ul li{
+          display: inline
+     }
+
+     .symbol-name{
+          margin-right: 10px;
+     }
+
+     .search-icon{
+          height: 18px;
+          width: 18px;
+          margin: 0px;
+          position: relative;
+          top: 5px;
+          left: 5px;
+          
+      }
+      .search{
+           width: 70px;
+           padding: 5px;
+           border-radius: 15px;
+           border: none;
+           margin: 0px;
+           font-size: 15px;
+           outline: none;
+      }
+      
+      .search-bar{
+           margin-left: 20px ;
+           height: 27px;
+           width: 270;
+           border: 2px solid black;
+           border-radius: 20px;
+      }
+
+     .feature-container{
+          min-width: 480px;
+          margin: auto;
+          padding-left: 15px;
+          padding-right: 15px;
+     }
+     
+     .male-section{
+          flex-basis: 25%;
+          padding: 0, 0px;
+          min-width: 200px;
+          margin-bottom: 0px;
+          transition: transform 0.5s;
+     }
+
+     .row{
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          gap: 20px;
+     }
+
+     .price{
+          margin-top: 2px;
+          margin-bottom: 6px;
+     }
+    
+     .buy-btn{
+          border: 1px solid black;
+         word-spacing: 1px;
+         margin-left: 4px;
+          padding: 3px 8px ;
+          font-size: 13px;
+          color: black;
+     }
+     
+}
+
+     
+    
+  
+    

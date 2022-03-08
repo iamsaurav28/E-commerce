@@ -51,3 +51,47 @@ td:last-child{
 th:last-child{
      text-align: right;
 }
+
+
+
+@media screen and (max-width: 600px) {
+              .product-detail img{
+                   width: 100px;
+                   height: auto;
+              }
+
+
+              td{
+               padding: 4px 2px;
+          }
+          
+td input{
+     width: 30px;
+     height: 20px;
+     padding: 6px 8px;
+}
+
+td a{
+     color: var(--primary);
+     font-size: 8px;
+}
+
+.overall{
+     display:flex;
+     justify-content: flex-end;
+}
+
+.overall table{
+     border-top: 3px solid var(--primary);
+     width: 100%;
+     max-width: 250px;
+}
+
+td:last-child{
+     text-align: right;
+}
+th:last-child{
+     text-align: right;
+}
+         
+}

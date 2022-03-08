@@ -67,5 +67,75 @@
          width: 12rem;
        }
 
+@media screen and (max-width: 600px) {
+
+     .sm-container{
+          margin-left: 0px; 
+    }
+
+    .large-container{
+         display: flex;
+    }
+.row-2{
+    justify-content: space-between;
+    margin:0px  5px;
+    font-size: small;
+ 
+   }
+
+   select{
+        border: 2px solid var(--primary);
+        padding: 5px 10px;
+    
+   }
+   select:focus{
+        outline: none;
+   }
+
+   .pg-button{
+        margin-top: 3rem;
+        width: 100%;
+   }
+   .pg-button span{
+        display: inline-block;
+        border:  1px solid var(--primary);
+        margin-left: 5px;
+        width:30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+   }
+
+   .pg-button span:hover{
+        background: var(--primary);
+        color: var(--white);
+   }
+
+
+
+
+     /* sasasasasas*/  
+     .product-filter{
+          width: 13rem;
+          color: var(--black);
+          background-color: var(--light-grey);
+     }
+     .clear{
+          margin-left: 8rem;
+          color: var(--black);
+          font-weight: bold;
+     }
+ 
+     .filters {
+          padding: 0.5rem;
+      }
+       
+      .length {
+          cursor: pointer;
+          width: 8rem;
+        }
      
+     
+     }
     
